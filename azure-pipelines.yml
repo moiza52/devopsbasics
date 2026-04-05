@@ -8,8 +8,8 @@ trigger:
 - master
 
 pool:
-  # vmImage: 'ubuntu-latest'
-  vmImage: $(vmImageName)
+  vmImage: 'ubuntu-latest'
+  # vmImage: $(vmImageName)
 
 steps:
 - task: Maven@3
